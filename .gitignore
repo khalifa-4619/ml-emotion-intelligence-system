@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep folder structure but ignore data files)
+data/raw/
+data/processed/
+data/*.csv
+data/*.json
+
+# Models
+*.pkl
+*.joblib
+*.pt
+*.h5
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env.*
