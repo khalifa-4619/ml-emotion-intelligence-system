@@ -7,3 +7,5 @@ matplotlib
 seaborn
 jupyter
 ipykernel
+accelerate>=0.21.0     # Required by Trainer for efficient evaluation
+pytest>=7.4.0          # Testing framework

@@ -22,6 +22,9 @@ data/*.json
 *.pt
 *.h5
 models/
+checkpoints/
+.pytest_cache/
+
 
 # IDE
 .vscode/
